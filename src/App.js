@@ -1,23 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+
+import TemperatureConverter from './components/TemperatureConverter';
+import TodoList from './components/TodoList';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <h2 className='title'>Задание 1: Температурный конвертер с Material UI</h2>
+      <TemperatureConverter />
+      <h2 className='title'>Задание 2: Список дел с Material UI</h2>
+      <TodoList />
     </div>
   );
 }
